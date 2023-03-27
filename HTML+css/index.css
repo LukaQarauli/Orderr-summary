@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #E0E8FF;
+}
+h1{
+   font-weight:900; 
+   font-size: 28px; 
+   Line-height: 37px; 
+   color:#1F2E55;
+   text-align: center;
+   margin-top:48px;
+}
+.text{
+   font-weight:500px; 
+   font-size: 16;
+   Line-height: 26px;
+   color: #717FA6;
+   text-align: center;
+   
+}
+.mainDiv{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+.secondDiv{
+    padding-left: 48px;
+    padding-right:48px ;
+    padding-bottom: 48px;
+}
+.IMGhero{
+     border-top-right-radius: 20px;
+     border-top-Left-radius: 20px ;
+}
+.musicDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right:24px;
+    padding-left: 24px;
+    margin-top: 20px;
+}
+.divbetween{
+    display: flex;
+    align-items: center;
+}
+.musicicon{
+    margin-right: 20px;
+}
+.annual{
+   font-weight: 900; 
+   font-size: 16px;
+   Line-height:21px;
+   color:#1F2E55 ;
+}
+.year{
+    font-weight:500 ;
+    font-size:16 ;
+    Line-height: 21px;
+    color:#717FA6 ;
+    margin-top: 6px;
+}
+.change{
+   font-weight: 700; 
+   font-size: 14px;
+   color:#382AE1;
+   text-decoration: underline;
+   cursor: pointer;
+}
+.change:hover{
+    color: #766cf1; 
+}
+.button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:#382AE1 ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 11px;
+    margin-top: 32px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    cursor: pointer;
+
+}
+.button:hover{
+  background-color: #766CF1;
+}
+.buttontext{
+    font-weight: 900;
+    font-size: 15px;
+    Line-height:20px;
+    color:white;
+    
+}
+.cancel{
+    font-weight: 900;
+    font-size: 15px;
+    Line-height: 20px;
+    color:#717FA6 ;
+    text-align:  center;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.cancel:hover{
+    color:#766CF1 ;
+}
